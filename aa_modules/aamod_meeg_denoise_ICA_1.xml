@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <aap>
     <tasklist>
-        <currenttask domain='meeg_session' desc='MEG ICA denoise 1: detect' modality='MEG'>
+        <currenttask domain='meeg_session' desc='MEG ICA denoise 1: detect' modality='MEEG'>
             
             <qsub>
                 <timeBase>0.15</timeBase>
@@ -17,11 +17,11 @@
             <Rseed>1</Rseed>
             
             <inputstreams>
-                <stream>meg</stream>
+                <stream>meeg</stream>
             </inputstreams>
             
             <outputstreams>
-                <stream>meg_ica</stream>                
+                <stream>meeg_ica</stream>                
             </outputstreams>
             
         </currenttask>
